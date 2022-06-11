@@ -7,4 +7,4 @@ ADD pyxtermjs.ini entry.py /
 WORKDIR /
 EXPOSE 5000
 
-CMD ["uwsgi", "--ini", "/pyxtermjs.ini"]
+CMD python entry.py
